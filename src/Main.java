@@ -21,5 +21,22 @@ public class Main {
         qualquer.nome = "Rock";
         qualquer.sobrenome = "Lee";
         qualquer.falar();
+
+        Pessoa rainha;
+
+        //Instanciar objetos
+
+        rainha = new Pessoa();
+
+        //definir forma do objeto
+
+        rainha.nome = "Tina";
+        rainha.sobrenome = "Tunner";
+
+        //Definir comportamento  do objeto
+
+        rainha.falar();
+        System.out.println(rainha.falar("Auto "));
+
     }
 }
