@@ -38,5 +38,7 @@ public class Main {
         rainha.falar();
         System.out.println(rainha.falar("Auto "));
 
+        rainha.comer();
+
     }
 }
