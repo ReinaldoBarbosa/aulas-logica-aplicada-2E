@@ -40,5 +40,16 @@ public class Main {
 
         rainha.comer();
 
+        Produto p1 = new Produto(5.00);
+        Produto p2 = new Produto();
+        Produto p3;
+
+        p3 = new Produto("Bala", 1.00);
+        p3 = new Produto("chiclete",0.50);
+
+        p1.preco = 10.0;
+        //p1.nome = "chocolate";
+        p1.setNome("chocolate");
+
     }
 }
